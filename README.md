@@ -1,64 +1,37 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+# Machine Learning Basics
 
-# Official Microsoft Sample
+This repository contains the exercise files for the **Create machine learning models** learning path on [Microsoft Learn](https://docs.microsoft.com/learn)
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+## Before You Start
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+To complete the labs, you'll need the following:
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+- A Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial at <a href ='https://azure.microsoft.com' target='_blank'>https://azure.microsoft.com</a>.
+- A Visual Studio Codespace. This provides a hosted instance of Visual Studio Code, in which you'll be able to run the notebooks for the lab exercises. To set up this environment:
+1. Open <a href = "https://online.visualstudio.com/environments/new?name=ml-basics&repo=MicrosoftDocs/ml-basics" target="_blank" rel="noopener">Visual Studio Codespaces</a> in a new browser tab; and if prompted, sign in using the Microsoft account associated with your Azure subscription.
+2. Create a codespace with the following settings (if you don't already have a Visual Studio Codespaces billing plan, you'll be prompted to create one):
+    - **Codespace Name**: *A name for your codespace - for example, **ml-basics**.*
+    - **Git Repository**: MicrosoftDocs/ml-basics
+    - **Instance Type**: Standard (Linux) 4 cores, 8GB RAM
+    - **Suspend idle Codespace after**: 30 minutes
+3. Wait for the codespace to be created. This will take around 3 minutes. You'll see the following things happen:
+    - A script will initialize and configure your codespace.
+    - A list of notebook (.ipynb) files will appear in the pane on the left.
+4. After preparation is complete, you can close the **Welcome** and **Creation Log** panes. You can also change the color scheme to suit your preference - just click the **&#9881;** icon at the bottom left and select a new **Color Theme**. A light color theme is recommended to make it easier to read the Python code in the notebooks.
 
-Give a short description for your sample here. What does it do and why is it important?
+## Labs
 
-## Contents
+After you've completed the setup steps above, you can use your Visual Studio Codespace to complete the labs. The notebooks in this project are tutorials that include notes and code to explain key concepts. Each notebook covers a specific topic, but if you are new to Machine Learning, you should complete them in order.
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+- **01 - Data Exploration.ipynb** examines some of the core Python techniques and packages used to explore and visualize data - a key element of data science and machine learning.
+- **02 - Regression.ipynb** introduces *regression*, a form of *supervised* machine learning that predicts numeric values.
+- **03 - Classification.ipynb** covers another form of *supervised* machine learning that is used to predict which category, or *class*, something belongs to.
+- **04 - Clustering.ipynb** deals with *unsupervised* machine learning that seeks to group similar data entities together based on statistical similarities.
+- **05a - Deep Neural Networks (PyTorch).ipynb** and **05a - Deep Neural Networks (TensorFlow).ipynb** introduce the key concepts of *deep neural networks (DNNs)* using your choice of two popular *deep learning* frameworks: PyTorch and Tensorflow.
+- **05b - Image Classification with a CNN (PyTorch).ipynb** and **05b - Image Classification with a CNN (Tensorflow).ipynb** describe how to build *convolutional neural networks (CNNs)* for image classification - a common use of *deep learning*.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
-
-## Prerequisites
-
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
-
-## Setup
-
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
-
-## Running the sample
-
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+> **Note:** These labs assume you have some basic familiarity with Python syntax and core data types. If not, consider working through the [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/) learning path first.
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+We are not currently accepting external contributions for this repo. If you encounter any problems, please report an issue.
