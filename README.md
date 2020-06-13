@@ -28,7 +28,7 @@ After you've completed the setup steps above, you can use your Visual Studio Cod
 - **03 - Classification.ipynb** covers another form of *supervised* machine learning that is used to predict which category, or *class*, something belongs to.
 - **04 - Clustering.ipynb** deals with *unsupervised* machine learning that seeks to group similar data entities together based on statistical similarities.
 - **05a - Deep Neural Networks (PyTorch).ipynb** and **05a - Deep Neural Networks (TensorFlow).ipynb** introduce the key concepts of *deep neural networks (DNNs)* using your choice of two popular *deep learning* frameworks: PyTorch and Tensorflow.
-- **05b - Image Classification with a CNN (PyTorch).ipynb** and **05b - Image Classification with a CNN (Tensorflow).ipynb** describe how to build *convolutional neural networks (CNNs)* for image classification - a common use of *deep learning*.
+- **05b - Convolutional Neural Networks (PyTorch).ipynb** and **05b - Convolutional Neural Networks (Tensorflow).ipynb** describe how to build *convolutional neural networks (CNNs)* for image classification - a common use of *deep learning*.
 
 > **Note:** These labs assume you have some basic familiarity with Python syntax and core data types. If not, consider working through the [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/) learning path first.
 
