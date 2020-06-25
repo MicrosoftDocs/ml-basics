@@ -26,5 +26,5 @@ pip install scipy
 pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install tensorflow 
  ```
-3. In Visual Studio Code, run the `git clone` command and clone the repo at https://github.com/GraemeMalcolm/ml-basics to your local computer.
+3. In Visual Studio Code, run the `git clone` command and clone the repo at https://github.com/MicrosoftDocs/ml-basics to your local computer.
 4. Open the cloned repo and use the notebooks it contains to complete the labs.
