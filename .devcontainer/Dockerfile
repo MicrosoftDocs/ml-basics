@@ -40,7 +40,7 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install scikit-learn \
     && pip --disable-pip-version-check --no-cache-dir install scikit-image \
     && pip --disable-pip-version-check --no-cache-dir install scipy \
-    && pip --disable-pip-version-check --no-cache-dir install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html \
+    && pip --disable-pip-version-check --no-cache-dir install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html \
     && pip --disable-pip-version-check --no-cache-dir install tensorflow \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
