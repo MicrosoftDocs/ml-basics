@@ -23,7 +23,7 @@ pip install pandas
 pip install scikit-learn
 pip install scikit-image
 pip install scipy
-pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip install tensorflow 
  ```
 3. In Visual Studio Code, run the `git clone` command and clone the repo at https://github.com/MicrosoftDocs/ml-basics to your local computer.
