@@ -1,6 +1,6 @@
 # Running the labs on your own computer
 
-We highly recommend using a Visual Studio Codespace for these labs - this setup ensures the correct version of Python and the various packages you will need are installed.
+We highly recommend using an Azure Machine learning compute instance for these labs - this setup ensures the correct version of Python and the various packages you will need are installed.
 
 If you prefer to work on the labs using your own computer, and you have experience configuring Python development environments, you can install the following tools and packages.
 
@@ -11,20 +11,19 @@ If you prefer to work on the labs using your own computer, and you have experien
 After installing these tools, you must configure your environment and download the lab files.
 
 1. In Visual Studio Code, install and enable the [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
-2. In Visual Studio Code, open a Python terminal and use the following `pip` commands to install the required packages in your Python 3.7 environment:
+2. In Visual Studio Code, open a Python terminal and use `pip` to install the following packages in your Python 3.7 environment (you can use the `pip install` command to install them individually, or copy the following list into a *requirements.txt* file and use the command `pip install -r requirements.txt` to install them in a single step):
 
  ```bash
-pip install jupyter
-pip install matplotlib
-pip install pillow
-pip install requests
-pip install numpy
-pip install pandas
-pip install scikit-learn
-pip install scikit-image
-pip install scipy
-pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
-pip install tensorflow 
+jupyter
+matplotlib
+pillow
+requests
+numpy
+pandas
+scikit-learn
+scikit-image
+scipy
  ```
+
 3. In Visual Studio Code, run the `git clone` command and clone the repo at https://github.com/MicrosoftDocs/ml-basics to your local computer.
 4. Open the cloned repo and use the notebooks it contains to complete the labs.
