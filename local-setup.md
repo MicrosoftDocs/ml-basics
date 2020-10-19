@@ -1,6 +1,6 @@
 # Running the labs on your own computer
 
-We highly recommend using an Azure Machine Learning compute instance for these labs - this setup ensures the correct version of Python and the various packages you will need are installed.
+We highly recommend using an Azure Machine Learning compute instance for these labs - this setup ensures the correct version of Python and the various packages you will need are installed and that the environment has sufficient memory and compute resources to complete the exercises. The notebooks have been tested in this environment. 
 
 If you prefer to work on the labs using your own computer, and you have experience configuring Python development environments, you can install the following tools and packages.
 
