@@ -1,0 +1,9 @@
+jupyter
+matplotlib
+pillow
+requests
+numpy
+pandas
+scikit-learn
+scikit-image
+scipy
