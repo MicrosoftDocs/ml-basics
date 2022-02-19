@@ -1,2 +1,2 @@
 #Demo
-to jes moje ML demo
+to jest moje ML demo!
